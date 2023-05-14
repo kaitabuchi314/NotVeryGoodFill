@@ -1,4 +1,3 @@
-
 function setup() {
   createCanvas(400, 400);
   
@@ -13,3 +12,10 @@ function draw() {
   ellipse(200, 200, 200, 200);
 }
 
+function mousePressed() {
+  badFill();
+}
+
+function badFill() {
+  console.log("Fill Finished!")
+}
